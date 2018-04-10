@@ -26,6 +26,8 @@ void toUpperCase(char *chrptr, int length) {
 int main() {
 
     string strInput;
+    
+    cout << "enter a string" << endl;
     cin >> strInput;
 
     char chrAry[strInput.length()];
